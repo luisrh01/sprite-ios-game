@@ -62,13 +62,13 @@
 			children = (
 				A063F01C23C16025001A43B5 /* AppDelegate.swift */,
 				A063F01E23C16025001A43B5 /* GameScene.sks */,
+				A063F03423C160AA001A43B5 /* GameManager.swift */,
 				A063F02223C16025001A43B5 /* GameScene.swift */,
 				A063F02423C16025001A43B5 /* GameViewController.swift */,
 				A063F02623C16025001A43B5 /* Main.storyboard */,
 				A063F02923C16026001A43B5 /* Assets.xcassets */,
 				A063F02B23C16026001A43B5 /* LaunchScreen.storyboard */,
 				A063F02E23C16026001A43B5 /* Info.plist */,
-				A063F03423C160AA001A43B5 /* GameManager.swift */,
 			);
 			path = Snake;
 			sourceTree = "<group>";

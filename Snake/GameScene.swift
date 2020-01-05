@@ -6,6 +6,12 @@
 //  Copyright © 2020 BPS Consulting. All rights reserved.
 //
 
+/*
+ based on :
+ 
+ https://medium.com/@gavin9/how-to-build-an-iphone-game-from-scratch-using-spritekit-no-coding-experience-required-bf486568075a
+*/
+
 import SpriteKit
 import GameplayKit
 
@@ -81,6 +87,8 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+        game.update(time: currentTime)
+
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
